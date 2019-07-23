@@ -1,0 +1,6 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.nativesquare.flutter_native_call">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+</manifest>
