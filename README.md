@@ -6,7 +6,7 @@ A new Flutter plugin. for native call feature in android(only).
 
 To use this plugin, add `flutter_native_call` as a dependency in your pubspec.yaml file. For example:
 
-```javascript
+```dart
 dependencies:
   flutter_native_call: ^0.0.1
 ```
