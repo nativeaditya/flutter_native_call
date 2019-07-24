@@ -8,7 +8,7 @@ To use this plugin, add `flutter_native_call` as a dependency in your pubspec.ya
 
 ```dart
 dependencies:
-  flutter_native_call: ^0.0.1
+  flutter_native_call: ^0.0.2
 ```
 
 run command
