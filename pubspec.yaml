@@ -1,8 +1,8 @@
 name: flutter_native_call
-description: A new Flutter plugin. for native call and sms
+description: A new Flutter plugin. for native call
 version: 0.0.1
-author:
-homepage:
+author: Aditya Panwar <adityapahansu@gmail.com>
+homepage: https://github.com/nativeaditya/flutter_native_call#flutter_native_call
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

@@ -1,14 +1,36 @@
-# flutter_native_call
+# flutter native call
 
-A new Flutter plugin. for native call
+A new Flutter plugin. for native call feature in android(only).
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android m
+To use this plugin, add `flutter_native_call` as a dependency in your pubspec.yaml file. For example:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```javascript
+dependencies:
+  flutter_native_call: ^0.0.1
+```
+
+run command
+```
+$ flutter pub get
+```
+
+You need to add a permission to AndroidManifest.xml:
+
+```xml
+<uses-permission android:name="android.permission.CALL_PHONE" />
+```
+import it
+
+
+```dart
+import 'package:flutter_native_call/flutter_native_call.dart';
+```
+
+use it
+
+
+```dart
+FlutterNativeCall.makeCall("9999999999");
+```

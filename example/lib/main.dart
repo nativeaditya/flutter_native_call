@@ -12,15 +12,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+  
 
   @override
   void initState() {
     super.initState();
   }
-
-  // Platform messages are asynchronous, so we initialize in an async method.
-
 
   @override
   Widget build(BuildContext context) {
@@ -32,12 +29,12 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           children: <Widget>[
             Center(
-              child: Text('Running on: $_platformVersion\n'),
+              child: Text('call'),
             ),
             RaisedButton(
               child: Text("call"),
               onPressed: (){
-                FlutterNativeCall.makeCall("8979747435");
+                FlutterNativeCall.makeCall("9999999999");
               },
             )
           ],
